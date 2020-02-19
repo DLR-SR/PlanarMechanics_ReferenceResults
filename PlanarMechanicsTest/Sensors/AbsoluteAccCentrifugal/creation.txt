@@ -1,0 +1,28 @@
+[ResultCreationLog]
+modelName="PlanarMechanicsTest.Sensors.AbsoluteAccCentrifugal"
+
+// Test info
+generationTool="Dymola Version 2020x (64-bit), 2019-10-10"
+generationDateAndTime="Fri Feb 14 10:51:14 2020"
+usedMSLURL="https://github.com/dzimmer/PlanarMechanics.git"
+usedMSLRevision=6499374d194a78e27a50c758f74b84a84b8f4b33
+
+// Experiment settings (standardized annotation)
+StartTime=0
+StopTime=1
+Interval=0.0002
+Tolerance=1e-06
+
+// Experiment settings (tool specific)
+// The following lines can be used as mos-script in Dymola
+Evaluate := false;
+OutputCPUtime := false;
+translateModel("PlanarMechanicsTest.Sensors.AbsoluteAccCentrifugal");
+simulateModel(
+  problem="PlanarMechanicsTest.Sensors.AbsoluteAccCentrifugal",
+  startTime=0,
+  stopTime=1,
+  outputInterval=0.0002,
+  method="Dassl",
+  tolerance=1e-06,
+  resultFile="AbsoluteAccCentrifugal");
