@@ -1,0 +1,28 @@
+[ResultCreationLog]
+modelName="PlanarMechanics.VehicleComponents.Examples.TestDryFrictionWheel"
+
+// Test info
+generationTool="Dymola Version 2020x (64-bit), 2019-10-10"
+generationDateAndTime="Fri Feb 14 10:45:13 2020"
+usedMSLURL="https://github.com/dzimmer/PlanarMechanics.git"
+usedMSLRevision=db13aebfa190d4c9685afe0884b60982b2e16542
+
+// Experiment settings (standardized annotation)
+StartTime=0
+StopTime=20
+Interval=0.0005
+Tolerance=1e-06
+
+// Experiment settings (tool specific)
+// The following lines can be used as mos-script in Dymola
+Evaluate := false;
+OutputCPUtime := false;
+translateModel("PlanarMechanics.VehicleComponents.Examples.TestDryFrictionWheel");
+simulateModel(
+  problem="PlanarMechanics.VehicleComponents.Examples.TestDryFrictionWheel",
+  startTime=0,
+  stopTime=20,
+  outputInterval=0.0005,
+  method="Dassl",
+  tolerance=1e-06,
+  resultFile="TestDryFrictionWheel");

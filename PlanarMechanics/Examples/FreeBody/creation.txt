@@ -1,0 +1,28 @@
+[ResultCreationLog]
+modelName="PlanarMechanics.Examples.FreeBody"
+
+// Test info
+generationTool="Dymola Version 2020x (64-bit), 2019-10-10"
+generationDateAndTime="Fri Feb 14 10:43:28 2020"
+usedMSLURL="https://github.com/dzimmer/PlanarMechanics.git"
+usedMSLRevision=db13aebfa190d4c9685afe0884b60982b2e16542
+
+// Experiment settings (standardized annotation)
+StartTime=0
+StopTime=3
+Interval=0.0005
+Tolerance=1e-06
+
+// Experiment settings (tool specific)
+// The following lines can be used as mos-script in Dymola
+Evaluate := false;
+OutputCPUtime := false;
+translateModel("PlanarMechanics.Examples.FreeBody");
+simulateModel(
+  problem="PlanarMechanics.Examples.FreeBody",
+  startTime=0,
+  stopTime=3,
+  outputInterval=0.0005,
+  method="Dassl",
+  tolerance=1e-06,
+  resultFile="FreeBody");

@@ -1,0 +1,27 @@
+Log-file of program ./dymosim
+(generated: Fri Feb 14 10:44:07 2020)
+
+dymosim started
+... "dsin.txt" loading (dymosim input file)
+... "InvertedCraneCrab.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+Integration terminated successfully at T = 3
+   CPU-time for integration                : 0.04 seconds
+   CPU-time for one grid interval          : 0.00667 milliseconds
+   CPU-time for initialization             : 0 seconds
+   Number of result points                 : 6003
+   Number of grid points                   : 6001
+   Number of accepted steps                : 147
+   Number of f-evaluations (dynamics)      : 272
+   Number of Jacobian-evaluations          : 41
+   Number of model time events             : 1
+   Number of input time events             : 0
+   Number of state events                  : 0
+   Number of step events                   : 0
+   Minimum integration stepsize            : 4.55e-08
+   Maximum integration stepsize            : 0.392
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
