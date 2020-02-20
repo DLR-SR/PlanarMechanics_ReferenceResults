@@ -3,9 +3,11 @@ modelName="PlanarMechanics.Examples.CounterSpin"
 
 // Test info
 generationTool="Dymola Version 2020x (64-bit), 2019-10-10"
-generationDateAndTime="Fri Feb 14 10:44:41 2020"
+generationDateAndTime="Thu Feb 20 14:08:52 2020"
+libraryVersion="1.4.2-dev"
+libraryBuild=1
 usedMSLURL="https://github.com/dzimmer/PlanarMechanics.git"
-usedMSLRevision=db13aebfa190d4c9685afe0884b60982b2e16542
+usedMSLRevision=131d7dbed928f14af96b8c4d25d72fad62b62f68
 
 // Experiment settings (standardized annotation)
 StartTime=0
