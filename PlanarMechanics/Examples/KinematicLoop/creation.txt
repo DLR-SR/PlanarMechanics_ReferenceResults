@@ -2,17 +2,15 @@
 modelName="PlanarMechanics.Examples.KinematicLoop"
 
 // Test info
-generationTool="Dymola Version 2020x (64-bit), 2019-10-10"
-generationDateAndTime="Thu Feb 20 14:08:31 2020"
-libraryVersion="1.4.2-dev"
+generationTool="Dymola Version 2020 (64-bit), 2019-04-10"
+generationDateAndTime="Tue Nov 16 16:36:42 2021"
+libraryVersion="1.4.1"
 libraryBuild=1
-usedMSLURL="https://github.com/dzimmer/PlanarMechanics.git"
-usedMSLRevision=131d7dbed928f14af96b8c4d25d72fad62b62f68
 
 // Experiment settings (standardized annotation)
 StartTime=0
 StopTime=6
-Interval=0.0005
+Interval=0.0012
 Tolerance=1e-06
 
 // Experiment settings (tool specific)
@@ -24,7 +22,7 @@ simulateModel(
   problem="PlanarMechanics.Examples.KinematicLoop",
   startTime=0,
   stopTime=6,
-  outputInterval=0.0005,
+  outputInterval=0.0012,
   method="Dassl",
   tolerance=1e-06,
   resultFile="KinematicLoop");
