@@ -5,5 +5,6 @@ Here are collected reference results of the Modelica [PlanarMechanics](https://g
 
 | Results version (branch) | Valid for PlanarMechanics version |
 |---|---|
+| [v1.6.0](https://github.com/DLR-SR/PlanarMechanics_ReferenceResults/tree/v1.6.0) | [v1.6.0](https://github.com/dzimmer/PlanarMechanics/releases/tag/v1.6.0) |
 | [v1.5.0](https://github.com/DLR-SR/PlanarMechanics_ReferenceResults/tree/v1.5.0) | [v1.5.0](https://github.com/dzimmer/PlanarMechanics/releases/tag/v1.5.0), [v1.5.1](https://github.com/dzimmer/PlanarMechanics/releases/tag/v1.5.1) |
 | [v1.4.1](https://github.com/DLR-SR/PlanarMechanics_ReferenceResults/tree/v1.4.1) | [v1.4.1](https://github.com/dzimmer/PlanarMechanics/releases/tag/v1.4.1) |
