@@ -1,18 +1,20 @@
 Log-file of program ./dymosim
-(generated: Thu Feb 20 14:08:00 2020)
+(generated: Mon Sep 11 12:53:48 2023)
 
 dymosim started
+... "PlanarMechanics.Examples.PowerDistanceDemo" simulating
 ... "dsin.txt" loading (dymosim input file)
 ... "PowerDistanceDemo.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
 Integration terminated successfully at T = 6
-   CPU-time for integration                : 0.113 seconds
-   CPU-time for one grid interval          : 0.00942 milliseconds
-   CPU-time for initialization             : 0.001 seconds
-   Number of result points                 : 12002
-   Number of grid points                   : 12001
+   CPU-time for integration                : 0.016 seconds
+   CPU-time for one grid interval          : 0.0032 milliseconds
+   CPU-time for initialization             : 0 seconds
+   Number of result points                 : 5002
+   Number of grid points                   : 5001
    Number of accepted steps                : 398
    Number of f-evaluations (dynamics)      : 794
    Number of Jacobian-evaluations          : 28
@@ -25,3 +27,5 @@ Integration terminated successfully at T = 6
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of PlanarMechanics.Examples.PowerDistanceDemo

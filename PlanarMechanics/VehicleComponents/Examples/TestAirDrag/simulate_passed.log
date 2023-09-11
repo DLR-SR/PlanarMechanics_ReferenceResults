@@ -1,0 +1,31 @@
+Log-file of program ./dymosim
+(generated: Mon Sep 11 12:55:27 2023)
+
+dymosim started
+... "PlanarMechanics.VehicleComponents.Examples.TestAirDrag" simulating
+... "dsin.txt" loading (dymosim input file)
+... "TestAirDrag.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 10
+   CPU-time for integration                : 0.009 seconds
+   CPU-time for one grid interval          : 0.0018 milliseconds
+   CPU-time for initialization             : 0.001 seconds
+   Number of result points                 : 5002
+   Number of grid points                   : 5001
+   Number of accepted steps                : 81
+   Number of f-evaluations (dynamics)      : 150
+   Number of Jacobian-evaluations          : 23
+   Number of model time events             : 0
+   Number of input time events             : 0
+   Number of state events                  : 0
+   Number of step events                   : 0
+   Minimum integration stepsize            : 1.41e-07
+   Maximum integration stepsize            : 0.458
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of PlanarMechanics.VehicleComponents.Examples.TestAirDrag

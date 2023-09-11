@@ -2,12 +2,12 @@
 modelName="PlanarMechanicsTest.Sensors.AbsoluteRotatedAcc"
 
 // Test info
-generationTool="Dymola Version 2020x (64-bit), 2019-10-10"
-generationDateAndTime="Thu Feb 20 14:19:49 2020"
-libraryVersion="1.4.2-dev"
-libraryBuild=1
-usedMSLURL="https://github.com/dzimmer/PlanarMechanics.git"
-usedMSLRevision=131d7dbed928f14af96b8c4d25d72fad62b62f68
+generationTool="Dymola Version 2023x Refresh 1, 2023-04-12"
+generationDateAndTime="Mon Sep 11 12:56:21 2023"
+libraryVersion="1.6.0"
+libraryBuild=
+usedLibraryURL="https://github.com/dzimmer/PlanarMechanics.git"
+usedLibraryRevision=69205bebe342c732e43a3d4fae25ac91bc4dd68c
 
 // Experiment settings (standardized annotation)
 StartTime=0
