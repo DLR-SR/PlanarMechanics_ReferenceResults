@@ -1,18 +1,20 @@
 Log-file of program ./dymosim
-(generated: Thu Feb 20 14:07:46 2020)
+(generated: Mon Sep 11 12:53:29 2023)
 
 dymosim started
+... "PlanarMechanics.Examples.PendulumExcited" simulating
 ... "dsin.txt" loading (dymosim input file)
 ... "PendulumExcited.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
 Integration terminated successfully at T = 3
-   CPU-time for integration                : 0.052 seconds
-   CPU-time for one grid interval          : 0.00867 milliseconds
+   CPU-time for integration                : 0.012 seconds
+   CPU-time for one grid interval          : 0.0024 milliseconds
    CPU-time for initialization             : 0.001 seconds
-   Number of result points                 : 6002
-   Number of grid points                   : 6001
+   Number of result points                 : 5003
+   Number of grid points                   : 5001
    Number of accepted steps                : 190
    Number of f-evaluations (dynamics)      : 354
    Number of Jacobian-evaluations          : 37
@@ -25,3 +27,5 @@ Integration terminated successfully at T = 3
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of PlanarMechanics.Examples.PendulumExcited

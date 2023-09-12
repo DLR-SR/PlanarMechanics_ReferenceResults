@@ -1,0 +1,30 @@
+[ResultCreationLog]
+modelName="PlanarMechanics.VehicleComponents.Examples.TestAirDrag"
+
+// Test info
+generationTool="Dymola Version 2023x Refresh 1, 2023-04-12"
+generationDateAndTime="Mon Sep 11 12:55:27 2023"
+libraryVersion="1.6.0"
+libraryBuild=
+usedLibraryURL="https://github.com/dzimmer/PlanarMechanics.git"
+usedLibraryRevision=69205bebe342c732e43a3d4fae25ac91bc4dd68c
+
+// Experiment settings (standardized annotation)
+StartTime=0
+StopTime=10
+Interval=0.002
+Tolerance=1e-06
+
+// Experiment settings (tool specific)
+// The following lines can be used as mos-script in Dymola
+Evaluate := false;
+OutputCPUtime := false;
+translateModel("PlanarMechanics.VehicleComponents.Examples.TestAirDrag");
+simulateModel(
+  problem="PlanarMechanics.VehicleComponents.Examples.TestAirDrag",
+  startTime=0,
+  stopTime=10,
+  outputInterval=0.002,
+  method="Dassl",
+  tolerance=1e-06,
+  resultFile="TestAirDrag");

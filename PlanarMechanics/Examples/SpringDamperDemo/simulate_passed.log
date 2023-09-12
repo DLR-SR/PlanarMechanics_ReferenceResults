@@ -1,18 +1,20 @@
 Log-file of program ./dymosim
-(generated: Thu Feb 20 14:08:25 2020)
+(generated: Mon Sep 11 12:54:22 2023)
 
 dymosim started
+... "PlanarMechanics.Examples.SpringDamperDemo" simulating
 ... "dsin.txt" loading (dymosim input file)
 ... "SpringDamperDemo.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
 Integration terminated successfully at T = 5
-   CPU-time for integration                : 0.067 seconds
-   CPU-time for one grid interval          : 0.0067 milliseconds
+   CPU-time for integration                : 0.01 seconds
+   CPU-time for one grid interval          : 0.002 milliseconds
    CPU-time for initialization             : 0 seconds
-   Number of result points                 : 10002
-   Number of grid points                   : 10001
+   Number of result points                 : 5002
+   Number of grid points                   : 5001
    Number of accepted steps                : 161
    Number of f-evaluations (dynamics)      : 307
    Number of Jacobian-evaluations          : 20
@@ -25,3 +27,5 @@ Integration terminated successfully at T = 5
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of PlanarMechanics.Examples.SpringDamperDemo

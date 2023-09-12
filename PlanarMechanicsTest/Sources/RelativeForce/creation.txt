@@ -1,0 +1,30 @@
+[ResultCreationLog]
+modelName="PlanarMechanicsTest.Sources.RelativeForce"
+
+// Test info
+generationTool="Dymola Version 2023x Refresh 1, 2023-04-12"
+generationDateAndTime="Mon Sep 11 12:56:57 2023"
+libraryVersion="1.6.0"
+libraryBuild=
+usedLibraryURL="https://github.com/dzimmer/PlanarMechanics.git"
+usedLibraryRevision=69205bebe342c732e43a3d4fae25ac91bc4dd68c
+
+// Experiment settings (standardized annotation)
+StartTime=0
+StopTime=3
+Interval=0.0006
+Tolerance=1e-06
+
+// Experiment settings (tool specific)
+// The following lines can be used as mos-script in Dymola
+Evaluate := false;
+OutputCPUtime := false;
+translateModel("PlanarMechanicsTest.Sources.RelativeForce");
+simulateModel(
+  problem="PlanarMechanicsTest.Sources.RelativeForce",
+  startTime=0,
+  stopTime=3,
+  outputInterval=0.0006,
+  method="Dassl",
+  tolerance=1e-06,
+  resultFile="RelativeForce");
