@@ -2,12 +2,12 @@
 modelName="PlanarMechanics.Examples.PistonEngine"
 
 // Test info
-generationTool="Dymola Version 2023x Refresh 1, 2023-04-12"
-generationDateAndTime="Mon Sep 11 12:54:41 2023"
-libraryVersion="1.6.0"
+generationTool="Dymola Version 2025x Refresh 1, 2025-05-16"
+generationDateAndTime="Mon Sep 22 14:51:37 2025"
+libraryVersion="2.0.0-alpha"
 libraryBuild=
 usedLibraryURL="https://github.com/dzimmer/PlanarMechanics.git"
-usedLibraryRevision=69205bebe342c732e43a3d4fae25ac91bc4dd68c
+usedLibraryRevision=afd55dab6be575b3eb96e9674065ee735b6f1ca4
 
 // Experiment settings (standardized annotation)
 StartTime=0

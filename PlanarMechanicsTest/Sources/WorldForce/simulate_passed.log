@@ -1,19 +1,19 @@
 Log-file of program ./dymosim
-(generated: Mon Sep 11 12:57:09 2023)
+(generated: Mon Sep 22 14:53:23 2025)
 
 dymosim started
-... "PlanarMechanicsTest.Sources.WolrdForce" simulating
+... "PlanarMechanicsTest.Sources.WorldForce" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "WolrdForce.mat" creating (simulation result file)
+... "WorldForce.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
 
 Integration terminated successfully at T = 3
-   CPU-time for integration                : 0.013 seconds
-   CPU-time for one grid interval          : 0.0026 milliseconds
-   CPU-time for initialization             : 0 seconds
-   Number of result points                 : 5004
+   CPU-time for integration                : 0.004 seconds
+   CPU-time for one grid interval          : 0.0008 milliseconds
+   CPU-time for initialization             : 0.001 seconds
+   Number of result points                 : 5003
    Number of grid points                   : 5001
    Number of accepted steps                : 233
    Number of f-evaluations (dynamics)      : 452
@@ -28,4 +28,4 @@ Integration terminated successfully at T = 3
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
 
-SUCCESSFUL simulation of PlanarMechanicsTest.Sources.WolrdForce
+SUCCESSFUL simulation of PlanarMechanicsTest.Sources.WorldForce

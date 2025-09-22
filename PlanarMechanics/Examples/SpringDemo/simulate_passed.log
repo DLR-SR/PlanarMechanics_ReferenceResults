@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Mon Sep 11 12:54:15 2023)
+(generated: Mon Sep 22 14:51:21 2025)
 
 dymosim started
 ... "PlanarMechanics.Examples.SpringDemo" simulating
@@ -10,8 +10,8 @@ Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
 
 Integration terminated successfully at T = 5
-   CPU-time for integration                : 0.012 seconds
-   CPU-time for one grid interval          : 0.0024 milliseconds
+   CPU-time for integration                : 0.004 seconds
+   CPU-time for one grid interval          : 0.0008 milliseconds
    CPU-time for initialization             : 0 seconds
    Number of result points                 : 5002
    Number of grid points                   : 5001

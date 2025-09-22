@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Mon Sep 11 12:55:08 2023)
+(generated: Mon Sep 22 14:51:54 2025)
 
 dymosim started
 ... "PlanarMechanics.Examples.CraneCrabTo3D" simulating
@@ -10,20 +10,20 @@ Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
 
 Integration terminated successfully at T = 10
-   CPU-time for integration                : 0.02 seconds
-   CPU-time for one grid interval          : 0.004 milliseconds
+   CPU-time for integration                : 0.006 seconds
+   CPU-time for one grid interval          : 0.0012 milliseconds
    CPU-time for initialization             : 0 seconds
    Number of result points                 : 5002
    Number of grid points                   : 5001
-   Number of accepted steps                : 728
-   Number of f-evaluations (dynamics)      : 1505
-   Number of Jacobian-evaluations          : 54
+   Number of accepted steps                : 764
+   Number of f-evaluations (dynamics)      : 1572
+   Number of Jacobian-evaluations          : 51
    Number of model time events             : 0
    Number of input time events             : 0
    Number of state events                  : 0
    Number of step events                   : 0
    Minimum integration stepsize            : 2.28e-07
-   Maximum integration stepsize            : 0.0304
+   Maximum integration stepsize            : 0.0261
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
